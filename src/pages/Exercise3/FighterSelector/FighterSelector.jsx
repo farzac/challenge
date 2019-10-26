@@ -10,7 +10,6 @@ function FighterSelector() {
   const [fighterSelectionHistory, setFighterSelectionHistory] = useState([]);
 
   const onFighterChange = fighter => {
-    alert(fighter);
     setFighter(fighter);
     //setFighter("ken");
   };
