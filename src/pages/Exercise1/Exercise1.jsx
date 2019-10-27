@@ -63,10 +63,7 @@ class Exercise1 extends Component {
                     <td className={classes.Action}>
                       <PokeballIcon
                         onClick={() => {
-                          alert("Ponto");
                           this.setState({
-                            //selectedElements: this.state.availableElements.splice(index, 1).concat(this.state.selectedElements)
-                            //selectedElements: this.state.selectedElements
                             selectedElements: this.state.availableElements
                               .splice(index, 1)
                               .concat(this.state.selectedElements)
