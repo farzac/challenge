@@ -17,7 +17,7 @@ class Fighter extends Component {
     };
 
     render() {
-        const { fighter } = this.state;
+        const { fighter } = this.props;
         return (
             <div
                 style={{

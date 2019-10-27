@@ -4,14 +4,11 @@ import FighterSlider from "../FighterSlider/FighterSlider";
 import styles from "./FighterSelector.module.scss";
 
 function FighterSelector() {
-  //const images =
   const [fighter, setFighter] = useState("ken");
-  //const [fighter, setFighter] = useState([]);
   const [fighterSelectionHistory, setFighterSelectionHistory] = useState([]);
 
   const onFighterChange = fighter => {
     setFighter(fighter);
-    //setFighter("ken");
   };
 
   useEffect(() => {
